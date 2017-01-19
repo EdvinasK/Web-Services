@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <playlist>
 
-  <song category="Pop/Rock">
-    <id>1</id>
+  <song id="1" category="Pop/Rock">
     <title lang="en">Ghosts</title>
     <author gender="male" birth="13 February 1974" nationality="England">Robbie Williams</author>
     <releasedate>Jan 01, 2002</releasedate>
@@ -10,8 +9,7 @@
     <price>$1.29</price>
   </song>
   
-  <song category="Pop/Rock">
-    <id>2</id>
+  <song id="2" category="Pop/Rock">
     <title lang="en">Roar</title>
     <author gender="female" birth="October 25, 1984" nationality="U.S.">Katy Perry</author>
     <releasedate>Jan 01, 2013</releasedate>
@@ -19,8 +17,7 @@
     <price>$1.29</price>
   </song>
   
-  <song category="Alternative Country">
-    <id>3</id>
+  <song id="3" category="Alternative Country">
     <title lang="en">All Over Again</title>
     <author gender="male" birth="February 26, 1932" nationality="U.S.">Katy Perry</author>
     <releasedate>Feb 12, 2002</releasedate>
