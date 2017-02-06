@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+#Declaration of DTD
+<!DOCTYPE playlist [
+  <!ELEMENT playlist (song, title, author, releasedate, duration, price)>
+  <!ELEMENT song ( #PCDATA )>
+    <!ATTLIST song id CDATA #REQUIRED>
+    <!ATTLIST song category CDATA #REQUIRED>
+  <!ELEMENT title ( #PCDATA )>
+    <!ATTLIST title lang CDATA #REQUIRED>
+  <!ELEMENT author ( #PCDATA )>
+    <!ATTLIST author gender CDATA #REQUIRED>
+    <!ATTLIST author birth CDATA #REQUIRED>
+    <!ATTLIST author nationality CDATA #REQUIRED>
+  <!ELEMENT releasedate ( #PCDATA )>
+  <!ELEMENT duration ( #PCDATA )>
+    <!ATTLIST duration durationtype CDATA #REQUIRED>
+  <!ELEMENT price ( #PCDATA )>
+]>
+
+<playlist>
+
+  <song id="1" category="Pop/Rock">
+    <title lang="en">Ghosts</title>
+    <author gender="male" birth="13 February 1974" nationality="England">Robbie Williams</author>
+    <releasedate>Jan 01, 2002</releasedate>
+    <duration durationtype="short">3:42</duration>
+    <price>$1.29</price>
+  </song>
+  
+  <song id="2" category="Pop/Rock">
+    <title lang="en">Roar</title>
+    <author gender="female" birth="October 25, 1984" nationality="U.S.">Katy Perry</author>
+    <releasedate>Jan 01, 2013</releasedate>
+    <duration durationtype="short">3:43</duration>
+    <price>$1.29</price>
+  </song>
+  
+  <song id="3" category="Alternative Country">
+    <title lang="en">All Over Again</title>
+    <author gender="male" birth="February 26, 1932" nationality="U.S.">Katy Perry</author>
+    <releasedate>Feb 12, 2002</releasedate>
+    <duration durationtype="short">2:12</duration>
+    <price>$0.99</price>
+  </song>
+
+</playlist>
